@@ -1,0 +1,127 @@
+/* *{
+  font-family:"Lucida Sans Unicode", "Lucida Grande", sans-serif;
+} */
+@font-face {
+  font-family: 'regular';
+  src: url('/pixiest/pixiest/src/fonts/Fontspring-DEMO-proximanova-regular.otf') format('otf');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'medium';
+  src: url('/pixiest/pixiest/src/fonts/Fontspring-DEMO-proximanovaexcn-medium.otf') format('otf');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'semibold';
+  src: url('/pixiest/pixiest/src/fonts/Fontspring-DEMO-proximanovaexcn-semibold.otf') format('otf');
+  font-weight: normal;
+  font-style: normal;
+}
+
+.outerContainer {
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container {
+ 
+  height: 521px;
+  width: 1170px;
+  margin-top: 70px;
+  margin-left: 130px;
+  align-items: center;
+}
+
+.header {
+  margin-bottom: 30px;
+ 
+}
+
+.header p {
+  font-size: 26px;
+  font-family:"medium", sans-serif;
+  line-height: 28.6px;
+}
+.subHeader{
+  margin-bottom: 30px;
+  
+}
+.subHeader p{
+  color:#969393;
+  font-family:"semibold", sans-serif;
+  font-size: 12px;
+  letter-spacing: 2px;
+  font-weight: bold;
+  line-height: 13.2px;
+
+}
+.content {
+  display: flex;
+}
+
+.box{
+  
+  height: 292px;
+  width: 170px;
+  margin: 0 24px 0 24px;
+  
+}
+.contentHeader{
+  font-size: 18px;
+  
+
+  display: flex;
+  flex-direction: column; 
+  align-items: center;    
+  justify-content: center; 
+  text-align: center;    
+  
+  border-bottom: 1px solid #e9e7e7; 
+  padding-bottom: 10px;
+  margin: 0 15px 0 15px ; 
+  
+}
+.contentHeader p {
+  font-family:"semibold", sans-serif;
+  font-weight: bold;
+  line-height: 19.5px ;
+  letter-spacing: 1px;
+  
+}
+.contentHeader img {
+  width: 54px;
+  height: 54px; 
+  margin : 0 58.0469px 20px
+}
+
+.options {
+  padding-top: 10px;
+  display: flex;
+  flex-direction: column; 
+  align-items: center;    
+  justify-content: center; 
+  text-align: left;  
+  
+
+  
+}
+
+
+.options ul li {
+  list-style-type: none;
+color:#969393;
+line-height: 19.5px;
+font-family:"regular", sans-serif;
+font-size: 14px;
+padding:7px 0px;
+transition: color 0.2s;
+
+}
+.options ul li:hover {
+  color: black;
+   
+}
